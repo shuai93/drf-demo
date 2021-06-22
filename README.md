@@ -1,5 +1,5 @@
 # drf-demo
-一个基于 Django REST framework 深度使用的示例
+一个关于 drf 使用的示例
 
 ## 说明 ❗
 
