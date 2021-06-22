@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-haystack = "*"
+whoosh = "*"
+jieba = "*"
+ipython = "*"
+django = "==3.0.0"
+drf-haystack = "*"
+djangorestframework-jwt = "*"
+requests = "*"
+pre-commit = "*"
+uwsgi = "*"
+gunicorn = "*"
+drf-yasg = "*"
+
+[requires]
+python_version = "3.6"
