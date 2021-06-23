@@ -25,6 +25,7 @@ class ArticleViewSet(viewsets.ModelViewSet, ExceptionMixin):
     允许用户查看或编辑的API路径。
     """
     queryset = Article.objects.all()
+    # 限流配置 可以根据需求添加
     throttle_classes = (UserRateThrottle,)
     serializer_class = ArticleSerializer
 
